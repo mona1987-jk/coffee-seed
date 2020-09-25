@@ -1,0 +1,110 @@
+
+.sidebar-box {
+  font-weight: 500;
+    font-style: normal;
+    font-size: 52px;
+    letter-spacing: -.01em;
+    line-height: 1.2em;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+position: absolute;
+    color:#ffffff;
+bottom: 6cm;
+  text-align: center;
+
+    font-family:'Freestyle Script';
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CHOCOLATE BACKGROUND WITH FADE TEXT */
+
+
+
+@media (max-width:1200px){
+
+  .textfadeh3 h3{text-align: center;
+    font-size: 40px;
+    top:-5cm;}
+
+}
+@media (max-width:550px){
+
+  .textfadeh3 h3{text-align: center;
+    font-size: 30px;
+    top:-3cm;}
+
+}
+
+.logoanimation {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.name {
+  width: 10%;
+  position: relative;
+  background-image: linear-gradient(to right, #737373,
+
+          #4d2600);
+
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+  padding: 5px 0;
+  font-family:'Freestyle Script';
+
+}
+.logoimg2{width:80px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left:10px;}
+
+@-webkit-keyframes logo-animate {
+  0%   { opacity: 1; }
+  25%   { opacity: 0.1; }
+  50%   { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+.l {
+  -webkit-animation: logo-animate 2s infinite;
+  animation:         logo-animate 2s infinite;
+  animation-delay: 1.4s;
+}
+.o{
+  -webkit-animation: logo-animate 2s infinite;
+  animation:         logo-animate 2s infinite;
+  animation-delay: 1.5s;
+}
+.g {
+  -webkit-animation: logo-animate 2s infinite;
+  animation:         logo-animate 2s infinite;
+  animation-delay: 1.6s;
+}
+.e {
+  -webkit-animation: logo-animate 2s infinite;
+  animation:         logo-animate 2s infinite;
+  animation-delay: 1.7s;
+}
